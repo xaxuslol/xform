@@ -1,0 +1,2 @@
+Java Developer Task 3 - MineSweeper
+I decided to go for functional/procedural approach instead of object oriented, since task was only to implement two methods. It resulted in setMineField being responsible just for checking if input is correct.

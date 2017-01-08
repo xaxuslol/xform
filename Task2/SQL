@@ -1,0 +1,15 @@
+SELECT * FROM XF.Country
+WHERE 400 < all (
+SELECT XF.City.Population
+FROM XF.City
+WHERE XF.City.CountryID=XF.Country.CountryID
+)
+
+SELECT * FROM XF.Country co
+WHERE 0 = (
+SELECT COUNT(*) FROM XF.City ci
+JOIN XF.Building b
+ON ci.CityID = b.CityID
+WHERE ci.CountryID = co.CountryID
+)
+

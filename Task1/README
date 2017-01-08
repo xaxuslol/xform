@@ -1,0 +1,3 @@
+Java Developer Task 1 - Restaurant
+Few comments about code
+Normally obviously I would keep data about meals in database - in that case I would go with noSQL one since there's no reason to go with relational one. Depending on device on what app would be used there's possibility we could load all meal data on app boot up and keep it in memory.
