@@ -1,3 +1,6 @@
 Java Developer Task 1 - Restaurant
 Few comments about code
+I used lombok so it would be prefered if you have Lombok plugin in IDE (altouhg its not needed to either run app or review code)
 Normally obviously I would keep data about meals in database - in that case I would go with noSQL one since there's no reason to go with relational one. Depending on device on what app would be used there's possibility we could load all meal data on app boot up and keep it in memory.
+And about adding/editing meals in current form you just have to add them into code beacuse of stub implementation, in normal case I would go with another
+module altogether for managing meals from regular user perspective (cook, manager of resturant)
